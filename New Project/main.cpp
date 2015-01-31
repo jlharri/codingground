@@ -1,11 +1,11 @@
-/* Jerry */
-
 #include <iostream>
+#include <math.h>
 
 using namespace std;
 
-void print_numbers(double a1, int a2)
+void print_numbers(char* text, double a1, int a2)
 {
+   cout << text << endl;
    cout << "Answer1 = " << a1 << endl;
    cout << "Answer2 = " << a2 << endl;    
 
@@ -19,12 +19,15 @@ int main()
    int answer2;
 
    answer2 = ++answer1;
-   print_numbers(answer1, answer2);
+   print_numbers("++answer1", answer1, answer2);
    
    answer1 = 1.8;
    answer2 = answer1++;
-   print_numbers(answer1, answer2);
+   print_numbers("answer1++", answer1, answer2);
+
+   answer1 = 1.8;
+   answer2 = round(answer1);
+   print_numbers("round(answer1)", answer1, answer2);
 
    return 0;
 }
-
