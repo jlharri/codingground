@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void print_numbers(char* text, double a1, int a2)
+void print_numbers(const char* text, double a1, int a2)
 {
    cout << text << endl;
    cout << "Answer1 = " << a1 << endl;
