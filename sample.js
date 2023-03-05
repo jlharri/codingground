@@ -1,5 +1,4 @@
 // New comment - JS only, no CSS here
-// Cool features! And colors
 // No Colors.
 $(() => {
     $('#gridContainer').dxDataGrid({
