@@ -1,5 +1,5 @@
 // New comment - JS only, no CSS here
-// Cool features! 
+// Cool features! And colors
 $(() => {
     $('#gridContainer').dxDataGrid({
       dataSource: 'data/customers.json',
