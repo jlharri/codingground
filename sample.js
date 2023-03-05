@@ -1,5 +1,5 @@
 // New comment - JS only, no CSS here
-// No Colors.
+// No Colors. Change.
 $(() => {
     $('#gridContainer').dxDataGrid({
       dataSource: 'data/customers.json',
