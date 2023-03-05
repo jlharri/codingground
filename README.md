@@ -1,5 +1,3 @@
-# Camilla: hello! Please delete this line and push it to the repo
-
 # codingground
 
 # my-change-1 -- new one
